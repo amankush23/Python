@@ -1,0 +1,5 @@
+print("Name=Aman kushwah")
+print("Age=17")
+print("Course= B.Tech")
+print("College Name= GLA University")
+print("Start From=23-08-2023")
