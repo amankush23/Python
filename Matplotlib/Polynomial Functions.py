@@ -1,0 +1,11 @@
+x_values = np.linspace(-3,3,100)
+y = x_values**3 - 2*x_values**2 +x_values-1
+plt.title('Plotting Polynomial Functions')
+plt.xlabel('x data')
+plt.ylabel('y data')
+plt.plot(x_values, y, label = 'polynomial line',color = 'b')
+plt.grid(True)
+plt.legend()
+# plt.axvline(0)
+# plt.axhline(0)
+plt.show()
