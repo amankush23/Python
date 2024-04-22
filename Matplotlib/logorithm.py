@@ -1,0 +1,8 @@
+x_values = np.linspace(0.1,10,100)
+y_values1 = np.log(x_values)
+y_values2 = np.log10(x_values)
+plt.plot(x_values,y_values1,label = 'log', c= 'b')
+plt.plot(x_values,y_values2,label = 'log10', c= 'r')
+plt.grid(True)
+plt.legend()
+plt.show()
