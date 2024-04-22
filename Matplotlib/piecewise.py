@@ -1,0 +1,5 @@
+x = np.linspace(-2,2,100)
+y = np.piecewise(x,[x<=0,x>0],[lambda x: -x,lambda x: x])
+plt.plot(x,y,c= 'b')
+plt.legend()
+plt.show()
