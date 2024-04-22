@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+x_values = np.linspace( 0,2*np.pi, 100)
+y_values1 = np.sin(x_values)
+y_values2 = np.cos(x_values)
+y_values3 = np.tan(x_values)
+plt.title('Plotting Tringonometric Fuctions')
+plt.xlabel('x data')
+plt.ylabel('y data')
+plt.subplot(2,2,1)
+plt.plot(x_values, y_values1, label = 'sin',color = 'r',ls = 'dotted')
+plt.subplot(2,2,2)
+plt.plot(x_values, y_values2, label = 'cos',color = 'g')
+plt.subplot(2,2,3)
+plt.plot(x_values, y_values3, label = 'tan',color = 'y')
+plt.grid(True)
+plt.legend()
+# plt.axvline(0)
+# plt.axhline(0)
+plt.show()
